@@ -1,2 +1,1 @@
-# cpwd-batch13
-CPWD Batch 13 Evening
+# CPWD Batch 13 Evening
