@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<title>Day Two</title>
+</head>
+<body>		
+
+	<!--Header-->
+	<div id="header">
+		HEADER
+	</div>
+	
+	<!--Content Area-->
+	<div id="content-area">
+		<div class="pane">left Pane</div>
+		<div class="pane">right Pane</div>
+	</div>
+	
+	<a href="https://www.google.com">
+	<a href="./about-us.html">about us</a>
+	<h1>HELLO<spam>World</spam></h1>
+	<h1>Basic HTML tags</h1>
+
+	<p>DESHAN RANDIKA WICKRAMRATHANA</p>
+
+	<p>CPWD Web</p>
+
+	
+	<img src="https://www.google.lk/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo"/>
+
+	<h1>Heading</h1>
+	<h2>Heading</h2>
+	<h3>Heading</h3>
+	<h4>Heading</h4>
+	<h5>Heading</h5>
+	
+	<!--Unordered List-->
+	<ul>
+		<li>Item 1</li>
+		<li>Item 2</li>
+		<li>Item 3</li>
+		<li>Item 4</li>
+		<li>Item 5</li>
+		<li>Item 6</li>
+		<li>Item 7</li>
+		<li>
+			<ul>
+				<li>Sub 1</li>
+				<li>Sub 2</li>
+			
+		</li>
+	
+			</ul>
+	</ul>
+	
+	
+</body>
+</html>

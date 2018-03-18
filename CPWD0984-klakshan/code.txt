@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HTML Basics</title>
+</head>
+<body>
+	<a href="https://www.google.com" target="_blank"><img src="./images/w3c.png" alt="Google" title="Google" /></a>
+</body>
+</html>
