@@ -1,0 +1,68 @@
+<!DOCtype html>
+<html>
+<head>
+<title>HTML Forms</title>
+</head>
+<body>
+<form action="http:192.168.100.7//form-response.php" method="post">
+
+<h3>personal data</h3>
+<input type="hidden" name="promocode" value="6treu5688">
+
+First Name: <input type="text" name="f_name" size=30>
+Last Name: <input type='text' name='l_name' size='30'>
+E mail: <input type='text' name="email">
+Password: <input type='password' name='password' required>
+Gender: 
+
+Male <input type="radio" name="gender" value="male" checked>
+Female <input type="radio" name="gender" value="female">
+
+<h5>option list</h5>
+
+<select name="country">
+	<option value="uk">UK</option>
+	<optgroup label="Asia">
+	<option value="in">India</option>
+	<option value="lk" selected>Sri Lanka</option></optgroup>
+	<optgroup label="Africa">
+	<option value="Co">Congo</option>
+	<option value="Ni">Nigeria</option></optgroup>
+</select>
+ <h5>Option list</h5>
+<textarea name="comment" rows="10" cols="50">
+</textarea>
+
+&copy;
+&reg;
+H<sub>2</sub>O
+X<sup>2</sup>
+
+<h4>OS preferences</h4>
+Mac OS <input type='checkbox' name="os[]" value="OSX" checked>
+Unix/Linux <input type='checkbox' name="os[]" value="unix">
+AWS <input type='checkbox' name="os[]" value="aws" disabled>
+Windows OS <input type='checkbox' name="os[]" value="windows">
+
+<hr>
+<h3>Student Profile</h3>
+Student Number: <input type="text" name="cpwd_id" value="CPWD" pattern="^CPWD[\d]{4}$">
+<input type="file" name="CV"/>
+</hr>
+
+<input type="submit" value="submit">
+<input type="reset" value="RESET">
+
+
+</form>
+</body>
+
+
+
+
+
+
+
+
+
+</html>

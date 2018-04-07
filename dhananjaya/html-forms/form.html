@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>HTML Forms</title>
-	<style type="text/css">
+	<style>
 		
 		input{
 			border:1px solid black;
@@ -12,10 +12,31 @@
 </head>
 <body>
 
-	<form action="/form-response.php">
-		First Name : <input type="text" name="f_name" size=30>
+	<form action="/form-response.php" method="post">
 
-		<input type="submit" name="sumbit">
+		<fieldset>
+			<legend>Personal Data</legend>
+
+			<label for="fist_name">First Name: </label>
+			<input type="text" name="f_name" id="fist_name">
+
+			<label for="last_name">Last Name: </label>
+			<input type="text" name="l_name" id="last_name">
+
+			<fieldset>
+				<legend>Postal Adrress</legend>
+				<label for="address_line1">Address 1: </label>
+				<input type="text" name="address_line1" id="address_line1">
+
+				<label for="address_line2">Address 2: </label>
+				<input type="text" name="address_line2" id="address_line2">
+			</fieldset>
+
+			<input type="button" name="but1" value="Clap">
+			<input type="image" src="http://www.paceinstitute.lk/images/home_cpwd_logo.png" name="but1" value="Clap">
+			
+		</fieldset>
+
 	</form>
 
 

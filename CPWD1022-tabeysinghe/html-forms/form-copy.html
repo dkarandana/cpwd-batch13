@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Form Elements
+	</title>
+</head>
+<body>
+	<form action="/form-response.php" method="post">
+		<h3>
+			Personal Data
+		</h3>
+		<input type="hidden" name="promocode" value="123     ">
+		First name : <input type="text" name="f_name" size="30" >
+		Last name : <input type="text" name="f_name" size="30" >
+
+		
+		Email : <input type="text" name="email">
+
+		Password : <input type="password" name="passwd" required>
+
+		Gender :
+		Male <input type="radio" name="gender" value="Male" checked="">
+		Female <input type="radio" name="gender" value="Female">
+
+		<h5>Option list</h5>
+
+		<select name="country">
+			<option value="LK">Sri Lanka</option>
+			<option value="IN">India</option>
+			<option value="UK" selected>UK</option>
+		
+
+		<optgroup label="Africa">
+			<option value="congo" disabled="">Congo</option>
+			<option value="Benin">Benin</option>
+		</optgroup>
+		</select>
+
+		<textarea name="comment" rows="15" cols="60"></textarea>
+
+
+		<h4> OS preferences </h4>
+
+		Mac OS <input type="checkbox" name="" value="osx" checked="">
+		Unix / Linux <input type="checkbox" name="" value="unix" disabled="">
+		AWS <input type="checkbox" name="" value="AWS">
+		Windows <input type="checkbox" name="" value="Windows">
+
+		<hr>
+
+		<h3>Student Profile</h3>
+
+		<!-- <input 
+			type="text" 
+			name="cpwd_id"
+			placeholder="CPWD****"
+			pattern="^CPWD[\d]{4}$"> -->
+
+		Student Number : <input type="text" name="cpwd_id" placeholder="Type your id">
+		<input type="file" name="cv">
+
+		<hr>
+		<input type="submit" name="submit" value="Go">
+		<input type="Reset" name="Reset" value="Reset">
+
+	</form>
+
+</body>
+</html>

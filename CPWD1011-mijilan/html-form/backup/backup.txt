@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>form-elements</title>
+	</head>
+	<body>
+		<form action="/form-response.php" method="post">
+			<h3>Personal data</h3> 
+			<input type="hidden" name="promocode" value="ciinomon bay"><br>
+
+
+			First Name : <input type="text"	name="f_name" size=30>
+			Last Name : <input type="text"	name="l_name" size=30>
+			Email : <input type="text"	name="email">
+			password :<input type="password"	name="passwd" required>
+			<hr>
+
+			<h3>Student profile</h3>
+
+			student Number  : <input type="text" name="cpwd_id" placeholder="CPWD****" pattern="^CPWD[\d]{4}$">
+			<hr>
+			Gender : 
+			male<input type="radio" name="Gender" value="male" checked="checked">
+			female<input type="radio" name="Gender" value="female">
+		
+			<h3>Os Preferance</h3>
+			MaC OS <input type="checkbox" name="os[]" value="osx" checked>
+			unix/ linux <input type="checkbox" name="os[]" value="unix">
+			Aws <input type="checkbox" name="os[]" value="aws">
+			windows <input type="checkbox" name="os[]" value="windows" disabled>
+			<hr>
+			MaC OS <input type="checkbox" name="macos" value="osx" checked>
+			unix/ linux <input type="checkbox" name="unix" value="unix">
+			Aws <input type="checkbox" name="aws" value="aws">
+			windows <input type="checkbox" name="wiN" value="windows" disabled>
+			<input type="file" name="cv"/>
+
+			<h4>option-list</h4>
+
+			<select name="country">
+				<option value="india">india</option>
+				<option value="lk">sri lanka</option>
+				<option value="jpn">japan</option>
+				<option value="uk" selected>united kindom</option>
+			</select>	
+			<hr>
+			<select name="country">
+				<optgroup label="asia">
+					<option value="india" selected>india</option>
+					<option value="lk">sri lanka</option>
+					<option value="jpn">japan</option>
+				</optgroup>
+				<option value="uk">united kindom</option>
+				<optgroup label="america">
+					<option value="canada" disabled>canada</option>
+					<option value="barazil">Barazil</option>
+					<option value="uruguay">uruguay</option>
+				</optgroup>
+				<option value="ksa">saudi arabia</option>
+			</select>
+			<hr>
+			<textarea name="cooment" rows="15" cols="20">
+				<!--there should be a end tag -->
+			</textarea>	
+
+			<input type="submit" value="GO"> 
+			<input type="reset" value="Reset"> 
+		</form>	
+	</body>
+</html>
