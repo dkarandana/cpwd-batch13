@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<h1>Registration Form</h1>
+	<title>HTML Form - Field Names</title>
+</head>
+<body>
+	<form action="/form-response.php" method="post">
+		<fieldset>
+
+			<legend><b>Personal Data<b></legend>
+				<lable for="f_name">First Name:</lable>
+				<br><input type="text" name="f_name" id="f_name"><br>
+
+				<lable for="l_name">Last Name:</lable>
+				<br><input type="text" name="l_name" id="l_name"><br>
+
+				<br><lable for="dob">Date Of Birth:</lable>
+				<br><input type="Date" name="dob" id="dob"><br>
+			
+				<br><lable for="gender">Gender:</lable>
+				<br><input type="radio" name="gender" value="Male"  checked>Male<br>
+				<input type="radio" name="gender" value="Male">Female<br>
+
+				<br><fieldset>
+					<legend>Contacts</legend>
+					<lable for="address_line1">Street Line 1:</lable>
+					<br><input type="text" name="address_line1" id="address_line1"><br>
+
+					<lable for="address_line2">Street Line 2:</lable>
+					<br><input type="text" name="address_line2" id="address_line2"><br>
+
+					<lable for="city">City:</lable>
+					<br><input type="text" name="city" id="city"><br>
+
+					<lable for="city">Postal Code:</lable>
+					<br><input type="text" name="postal_code" id="postal_ code"><br>
+
+					<lable for="country">Country:</lable>
+					<br><Select> name="Country"<br>
+						<option>Sri Lanka </option>
+						<option>India</option>
+						<option>Japan</option>
+						<option>UK</option>
+						<option>USA</option>
+						<option>Canada</option>
+					</Select>
+
+					<br><lable for="email">E-mail Address:</lable><br>
+					<input type="text" name="email" id="email">
+
+					<br><lable for="twitter">Twitter:</lable><br>
+					<input type="text" name="twitter" id="twitter">
+
+					<fieldset>
+						<legend>Phone</legend>
+							<lable for="
+							moblie"
+							>Moblie</lable>
+							<br><input for="text" name="mobile" id="mobile"><br>
+
+							<lable for="
+							phone"
+							>Fixed Line:</lable>
+							<br><input for="text" name="phone" id="phone"><br>
+							<lable for="
+							fax"
+							>Fax:</lable>
+							<br><input for="text" name="fax" id="fax"><br>
+
+					</fieldset>
+
+						<lable for="contact_preferences">Contact preferences:</lable>
+						<br><input type="checkbox" name="Mobile" value="mobile" >Mobile <br>
+						<input type="checkbox" name="Fixed Phone" value="Fixed Phone">Fixed Phone<br>
+						<input type="checkbox" name="email" value="email">Email
+						<br><input type="checkbox" name="twitter" value="twitter">Twiter
+
+				</fieldset>
+				<fieldset>
+					<legend>CPWD Account</legend>
+					 <label for="cpwd_id" pattern="^CPWD[\d]{4}$">Student ID</label>
+					 <input type="text" name="cpwd_id" value="">
+
+
+					  <br><label for="cpwd_batch">Batch</label>
+					 	<br><Select> name="Batch"<br>
+							<option>Batch1</option>
+							<option>Batch2</option>
+							<option>Batch3</option>
+							<option>Batch4</option>
+							<option>Batch5</option>
+							<option>Batch6</option>
+							<option>Batch7</option>
+							<option>Batch8</option>
+							<option>Batch9</option>
+							<option>Batch10</option>
+							<option>Batch11</option>
+							<option>Batch12</option>
+							<option>Batch13</option>
+						</Select>
+
+						<fieldset>
+							<lable for="wiki_username">Wiki User name</lable>
+							<input type="text" name="wiki_username" value="">
+
+							<br><lable for="wiki_username">Wiki Password</lable>
+							<input type="text" name="wiki_password" value="" required="">
+							<br><lable for="wiki_username">Wiki Password (retype)</lable>
+							<input type="text" name="wiki_password" value="">
+						</fieldset>
+
+							<button type="clear" value="CLEAR">CLEAR</button>
+							<input type="submit"  value="SUBMIT">
+
+				</fieldset>
+		
+	</form>
+
+</body>
+</html>	

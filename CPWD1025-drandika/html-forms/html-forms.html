@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>html forms</title>
+</head>	
+<body>
+		<!--Forms-->
+		<form action="/form-response.php" method="post">
+		<fieldset>
+			<legend></legend>
+		<fieldset>
+		     <legend>Personal Information</legend>
+		  <div id="form">	
+			First Name:<input type="text" name="f_name" size="30">
+			Last Name:<input type="text" name="l_name" size="30">
+			Email:<input type="text" name="email">
+			Password:<input type="password" name="passwd" required>
+			Date Of Birth:<input type="">
+		  </div>
+			<hr>
+			<!--gender-->
+			GENDER:
+			Male<input type="radio" name="gender" value="male" checked>
+			female<input type="radio" name="gender" value="female">
+		<select>
+			<option value="volvo">Volvo</option>
+			<option value="saab">Saab</option>
+			<option value="mercedes">Mercedes</option>
+			<option value="audi">Audi</option>
+		</select>
+		
+		<div class="dropdown">
+		  <button class="dropbtn">Dropdown</button>
+		  <div class="dropdown-content">
+			<a href="#">Link 1</a>
+			<a href="#">Link 2</a>
+			<a href="#">Link 3</a>
+		  </div>
+		</div>
+			<select name="county">
+				<optgroup label="asia">
+					<option value="lk" selected>Lanka</option>
+					<option value="in" disabled>India</option>
+				</optgroup>
+				<optgroup label="europe">
+					<option value="uk">London</option>
+					<option value="us">America</option>
+					<option value="ir">irland</option>
+				</optgroup>
+			</select>
+
+			<hr>
+			<h4>OS</h4>
+			Mac OS<input type="checkbox" name="os[]" value="osx" checked>
+			Unix or Linux<input type="checkbox" name="os[]" value="unix">
+			Windows<input type="checkbox" name="os[]" value="windows" checked>
+
+
+			<h2>Student Profile</h2>
+			Student Name:<input type="text" name="cpwd_id" placeholder="CPWD****">
+			Student Number Validation:<input type="text" name="cpwd_id" placeholder="CPWD****" pattern="^CPWD[\d]{4}$">
+			<input type="file" name="cv"/>	
+        </fieldset>
+			<hr>
+			<input type="submit" val
