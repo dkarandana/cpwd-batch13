@@ -1,0 +1,41 @@
+body{
+	/*margin:0;*/
+	margin: 500;
+}
+#logo{
+	height: 150;
+}
+h1{
+	display: inline-block;
+	background-color: gold
+}
+
+header h2{
+	display: inline-block;
+
+}
+
+form.global-search{
+	display: inline-block;
+	background-color:green;
+}
+ul.social-media{
+	display:inline-block;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 2em;
+}
+
+	ul.social-media li{
+	display: inline-block;}
+
+nav ul.main-menu{
+	display:inline-block;
+}
+	ul.main-menu li{
+		display:inline-block;
+		padding: 25px;
+		padding-top: 10px;
+		
+	}

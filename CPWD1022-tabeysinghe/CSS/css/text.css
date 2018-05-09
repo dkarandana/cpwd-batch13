@@ -1,0 +1,85 @@
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Patua One', cursive;
+font-family: 'Libre Franklin', sans-serif;
+
+PrimaryColor: #111010 (black);
+SecondaryColor : #0D3144;
+TextColor :#052E43;
+
+	darkgrey : #A6ACAF;
+	orange : #E74C3C;
+	Offwhite: #FBFCFC;
+	Blue : #154360  ;
+	light blue : #85C1E9;
+
+*/
+body{
+	font-family: 'Roboto', sans-serif;
+	color: #111010;
+	font-size: 15px;
+}
+
+menu{
+	font-family: "Fredoka One"sans-serif;
+	color: #E74C3C;
+}
+
+h1{
+	font-family: 'Patua One', cursive;
+	color:  #E74C3C;
+}
+
+h3{
+	font-family: "Roboto", sans-serif;
+	color: #08618B;
+}
+
+a{
+	color :#08618B ;
+}
+
+	a: hover{
+		color: #08618B;
+	}
+
+input[type=submit]{
+	background: #154360  ;
+	cursor: pointer;
+	color: #FBFCFC;
+}
+
+input[type=submit]:hover{
+	background: #85C1E9;
+	cursor: pointer;
+	color:  #154360;
+}
+
+header{
+	border-width: 2px;
+	border-style: solid;
+	border-color: #154360;
+	background: #A6ACAF;
+}
+
+ul.main-menu li{
+	text-transform: uppercase;
+}
+	ul.main-menu li a{
+		text-decoration: none;
+		display: block;
+	}
+
+	ul.main-menu li a:hover,
+	ul.main-menu li.active a{
+		color: #E74C3C
+	}
+
+
+
+
+
+
+
+
+
