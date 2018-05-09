@@ -1,0 +1,64 @@
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Do Hyeon', sans-serif;
+font-family: 'Slabo 27px', serif;
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Titan One', cursive;
+*/
+/*
+Primary color :E7EBC4;
+Secondary color:E7EBC4;
+Text color:041826;
+
+
+*/
+body{
+	font-family: 'Roboto',sans-serif;
+}
+h1{
+	font-family: 'Titan One', cursive;
+
+	color: #0F0834;
+}
+h2,h3,h4,h5,h6{
+	font-family: 
+	color: #010203;
+}
+header{
+	font-family: 'Slabo 27px', serif;
+	background-color: #CBD5E5;
+	border-width: 5px;
+	border-style: solid;
+	border-color: skyblue;
+}
+a{
+	color: #001BA3;
+}
+	a:hover{
+		color:#C71B0D;
+	}
+/* Form Controllers*/
+
+input[type=submit]{
+	background:#00A6A3;
+	color:  #01C8C5
+	cursor: pointer; 
+}
+
+	input[type=submit]:hover{
+		background-color: #091829;
+		color: #01C8C5;
+		cursor: pointer; 
+	}
+/*Text Transform*/
+nav ul.main-menu li{
+	text-transform: uppercase;
+}
+
+	ul.main-menu li a{
+		text-decoration:none;
+	}
+
+	nav ul.main-menu li a:hover,
+	nav ul.menu li.active a{
+		color: #520B05;
+	}

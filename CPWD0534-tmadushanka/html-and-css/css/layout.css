@@ -1,0 +1,39 @@
+/*	BF9A26
+	7F6719
+	FFCE33
+	40330D
+	E5B92E */
+
+body {
+	margin: 0;
+	font-family: 'PT+Sans', sans-serif;
+}
+
+h1 {
+	/*font-family: 'monoton', cursive;*/
+	color: #CCC063;
+	display: block;
+}
+
+
+h2,h3,h4,h5 {
+	color: #7F783E;
+}
+
+input[type=submit]:hover{
+	background-color: #C4FFE3;
+	color: #E8700C;
+	cursor: pointer;
+}
+
+a{
+	text-decoration: none;
+	color: #0C34E8;
+}
+
+h1 {
+	display: inline-block;
+	background-color: gold;
+	font-family: 'monoton';
+	
+}

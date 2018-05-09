@@ -1,0 +1,24 @@
+/*
+Primary Colour		Blue		#005AD2
+Secondary Colour	Light Blue	#008CFF
+text				Dark Blue	#050A14
+					Light Grey	#B9C8D7
+					Dark Gray	#2D3746
+*/
+
+
+body{
+	/*color:blue;*/
+	margin: 0;
+	/*background-color: #E6E6E6;*/
+}
+
+#logo{
+	width: 200px;
+}
+
+.global-search{
+	/*background-color: white;*/
+}
+
+/*Header Styles*/
