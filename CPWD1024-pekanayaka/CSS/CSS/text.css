@@ -14,15 +14,18 @@ Text color:041826;
 body{
 	font-family: 'Roboto',sans-serif;
 }
+
 h1{
 	font-family: 'Titan One', cursive;
 
 	color: #0F0834;
 }
+
 h2,h3,h4,h5,h6{
 	font-family: 
 	color: #010203;
 }
+
 header{
 	font-family: 'Slabo 27px', serif;
 	background-color: #CBD5E5;
@@ -30,6 +33,8 @@ header{
 	border-style: solid;
 	border-color: skyblue;
 }
+
+	
 a{
 	color: #001BA3;
 }

@@ -1,0 +1,71 @@
+/*
+font-family: 'PT Sans', sans-serif;
+font-family: 'Monoton', cursive;
+
+*/
+/*
+Primary Colour				152, 175, 191	#98afbf
+Secondary Colour			0, 159, 227		#009fe3
+
+Menu background Colour		0, 159, 227		#009fe3
+Menu link general Colour	25, 30, 30		#191e1e
+Menu link hover Colour		152, 175, 191	#98afbf
+
+Header background colour	152, 175, 191	#98afbf
+Header Text					25, 30, 30		#191e1e
+Icons						0, 159, 227		#009fe3
+
+Seo h1						25, 30, 30		#191e1e
+Text						25, 30, 30 		#191e1e
+
+link general				0, 159, 227		#009fe3 
+link hover					25, 30, 30		#191e1e
+link  after					152, 175, 191	#98afbf
+*/
+
+body{
+	font-family: 'PT Sans', sans-serif;
+}
+
+h1{
+	font-family: 'Monoton', cursive;
+	color: #191e1e;
+}
+
+h2,h3,h4,h5,h6{
+	color: #009fe3;
+}
+
+a{
+	color: #009fe3;
+}
+	
+	a:hover{
+	color: #191e1e;
+	}
+
+/*Global Form Controllers*/
+input[type=submit]{
+	background-color: #009fe3;
+	color: #191e1e;
+	cursor: pointer;
+}
+
+	input[type=submit]:hover{
+		background-color: #009fe3;
+		color: #191e1e;
+	}
+
+nav ul.main-menu li{
+	text-transform: uppercase;	
+}
+	nav ul.main-menu li a{
+		text-decoration: none;
+		color: #191e1e;
+
+	}
+		nav ul.main-menu li a:hover,
+		nav ul.main-menu li.active a{
+			background-color: #2D3746;
+			color: #009fe3;
+		}
