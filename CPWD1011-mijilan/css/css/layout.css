@@ -1,64 +1,108 @@
-/*
-Primary Colour		Blue		#005AD2
-Secondary Colour	Light Blue	#008CFF
-text				Dark Blue	#050A14
-					Light Grey	#B9C8D7
-					Dark Gray	#2D3746
-*/
+/* 
+primary(white)  -#D9D9D9
+secondary(grey)	-#A6A6A6
+text (black)	-#1F1F1F
+4th				-#00B2F2
+5th				-#8C4CES */
 
-
-body{
-	/*color:blue;*/
-	margin: 0;
-	/*background-color: #E6E6E6;*/
-}
-
-#logo{
-	width: 200px;
-	padding: 20px;
-	border:10px solid white;
-	display: inline-block;
-}
-
-.global-search{
-	/*background-color: white;*/
-
-}
-form
-
-/*Header Styles*/
 header{
-	background-color:Dark Gray	#2D3746
-	border-width:10px;
-	border-style: solid;
-	/*border-bottom:20px;*/
+	background-color: #A6A6A6;
+	width: 100%;
+	margin: 0px;
+	position: relative;
+	/*position: fixed;top: 0px;left:0px;*/
 }
+	/*header div.wrapper{
+		margin: 0 auto ;
+		width: 1280px;
+		background-color: yellow;
+	}*/
+#logo{
+	width: 400px;
+	padding:0px;
+	margin: 0px;
+	position: relative;top: 10px; left: 0px;
+}
+
 h1{
 	display: inline-block;
+	margin: 0px;
 }
 
-header h2{
+.wrapper{
+	margin: 0 auto;
+	width:1240px;
+	padding: 0 20px ;
+	background-color: yellow;
+	position: 
+}
+
+h2{
 	display: inline-block;
 }
-form.global-search{
+
+.social_{
 	display: inline-block;
+	position: absolute;
+	right: 20px;
+	top:10px;
 
 }
-
-ul.social_media{
+ul.social_icon{
 	display: inline-block;
-	margin:0px;
-	list-style: none;
-	padding: 0;
-	font-size: 2em;
+	margin: 0px;
+	padding: 20px;	
 }
-	ul.social_media li{
-		display: inline-block;
-	}
-nav ul.menu li{
+
+ul.social_icon li{
 	display: inline-block;
-	list-style: none;
-	padding:0;
-
-
 }
+
+ul.social_icon{
+	margin: 0px;
+	display: inline-block;
+}
+
+ul.nav_list li{
+	list-style-type: none;
+	display: inline-block;
+	text-decoration: none;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #D9D9D9;
+}
+	/*div.content_area{
+		margin: 0 auto;
+		width: 1280px;
+		background-color: red ;
+	}*/
+
+/*.pane{
+	float: left;
+}*/
+
+/*immdeate children*/
+.content_area>div{
+	float: left;
+}
+.left_pane{
+	/*float: left;*/
+	width: 30%;
+}
+
+.right_pane{
+	/*float: left;*/
+	width: 70%;
+}
+
+footer{
+	background-color: #A6A6A6;
+}
+	/*.footer_wraper{
+		margin: 0 auto;
+		width: 1280px;
+		background-color: purple;
+	}*/

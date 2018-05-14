@@ -1,14 +1,41 @@
 body{
 	/*margin:0;*/
-	margin: 500;
+	margin: 0;
 }
 #logo{
-	height: 150;
-}
+	height: 130;
+	position: relative;
+	margin-top: 19px;
+	left: 4px;
+	margin-left:82px
+	background-color:blue;
+	}
+
 h1{
 	display: inline-block;
 	background-color: gold
 }
+		.wrapper{
+			/*width: 1280px;*/
+			width: 1240px;
+			margin: auto;
+			background-color: pink;
+			padding: 20px;
+			position: relative;
+		}
+header{
+		background-color: #01C8C5
+		/*position: fixed;
+		width:100%;
+		top: 0; /*if bottom use "bottom:0;"*//*Positioning*/
+	}
+
+	/*.header-wrapper{
+		width: 1280px;
+		margin: auto;
+		background:purple;
+	}*/
+
 
 header h2{
 	display: inline-block;
@@ -18,17 +45,26 @@ header h2{
 form.global-search{
 	display: inline-block;
 	background-color:green;
-}
-ul.social-media{
-	display:inline-block;
-	list-style: none;
-	padding: 0;
-	margin: 0;
-	font-size: 2em;
+	margin: right;
+	position: absolute;
+	padding: 20px;
+
 }
 
-	ul.social-media li{
-	display: inline-block;}
+		ul.social-media{
+			display:inline-block;
+			list-style: none;
+			padding: 50;
+			margin: 0;
+			font-size: 2em;
+		}
+
+			ul.social-media li{
+			display: inline-block;
+		
+
+		}
+
 
 nav ul.main-menu{
 	display:inline-block;
@@ -37,5 +73,35 @@ nav ul.main-menu{
 		display:inline-block;
 		padding: 25px;
 		padding-top: 10px;
-		
 	}
+
+/*.content-wrapper{
+	background-color: #419EDD;
+	margin: auto;
+	width: 1280px;
+}*/
+
+.content-area{
+
+}
+
+.left-pane{
+	width: 30%;
+	float:left;
+}
+
+
+.right-pane{
+	width: 68%;
+	float:left;
+}
+}
+footer{
+ background-color: #01C8C5;
+ 
+}
+		/*.footer-wrapper{
+			background-color:  purple;
+			 width:1280px;
+			 margin: auto;
+		}*/

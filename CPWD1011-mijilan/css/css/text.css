@@ -1,50 +1,29 @@
-/*
+/* 
+primary(white)  -#D9D9D9
+secondary(grey)	-#A6A6A6
+text (black)	-#1F1F1F
+4th				-#00B2F2
+5th				-#8C4CES */
+
+/*font-family: 'Open Sans Condensed', sans-serif;
 font-family: 'PT Sans', sans-serif;
-font-family: 'Monoton', cursive;
-
-*/
-/*
-Primary Colour		Blue		#005AD2
-Secondary Colour	Light Blue	#008CFF
-text				Dark Blue	#050A14
-					Light Grey	#B9C8D7
-					Dark Gray	#2D3746
-*/
-
+font-family: 'PT Serif', serif;*/
 
 body{
 	font-family: 'PT Sans', sans-serif;
 }
 
 h1{
-	font-family: 'Monoton', cursive;
-	color: #005AD2;
+	font-family: 'Open Sans Condensed', sans-serif;
+	letter-spacing: 5px;
 }
 
-h2,h3,h4,h5,h6{
-	color: #005AD2;
+ul.social_icon{
+	text-decoration: none;
+	list-style-type: none;
 }
-
-a{
-	color: #2D3746;
-}
-	
-	a:hover{
-	color: #B9C8D7;
-	}
-	
-/*Global Form Controllers*/
-input[type=submit]{
-	background-color: #005AD2;
-	color: #008CFF;
-	cursor: pointer;
-}
-
-	input[type=submit]:hover{
-		background-color: #2D3746;
-		color: #B9C8D7;
-	}
-nav ul.menu li{
-	text-transform: uppercase;
+ul.nav_list li{
+	list-style-type: none;
 	text-decoration: none;
 }
+

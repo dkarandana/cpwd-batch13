@@ -3,11 +3,23 @@ body{
 }
 
 #logo{
-	height: 130px
+	height: 130px;
+	position: relative;
+	top: 19px;
+	left: 4px;
+	margin-left: 82px;
 }
 
 h1{
 	display: inline-block;
+}
+
+.wrapper{
+	margin: auto;
+	width: 1240px;
+	background: #A6ACAF ;
+	padding: 20px;
+	position: relative;
 }
 
 header h2{
@@ -16,13 +28,33 @@ header h2{
 
 form.global-search{
 	display: inline-block;
+	float: right;
+	position: absolute;
+	padding: 20px;
 } 
+
+
+.footer-wrapper{
+	width: 1280px; 
+	margin: auto;
+	height: 100px;
+}
+
+/*
+.content-wrapper{
+	background: #A6ACAF;
+	margin: auto;
+	width: 1280px;
+}*/
 
 ul.social-media{
 	display: inline-block;
 	list-style: none;
 	margin: 0;
 	font-size: 2em;
+	position: absolute;
+	padding: 50px;
+
 
 }
 	ul.social-media li{
@@ -40,5 +72,42 @@ ul.main-menu{
 		padding: 20px;
 		list-style: none;
 	}
+	
+.panes{
+	float: left;
+}
 
-/* text-transform: /*
+.left-pane{
+	width: 30%;
+}
+
+.right-pane{
+	width: 70%;
+}
+
+/* text-transform: */
+
+/*div.events{
+	display: inline-block;
+}
+
+#event-logo{
+	height: 180px;
+}
+
+div.main-content{
+	display: inline-block;
+}
+
+ul.tabs{
+	list-style: none;
+	display: inline-block;
+}
+
+	ul.tabs li{
+		display: inline-block;
+		list-style: none;
+	}*/
+
+
+
