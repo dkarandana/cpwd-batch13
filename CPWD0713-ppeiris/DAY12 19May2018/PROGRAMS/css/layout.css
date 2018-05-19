@@ -1,0 +1,138 @@
+/*
+Primary Colour				152, 175, 191	#98afbf
+Secondary Colour			0, 159, 227		#009fe3
+
+Menu background Colour		0, 159, 227		#009fe3
+Menu link general Colour	25, 30, 30		#191e1e
+Menu link hover Colour		152, 175, 191	#98afbf
+
+Header background colour	152, 175, 191	#98afbf
+Header Text					25, 30, 30		#191e1e
+Icons						0, 159, 227		#009fe3
+
+Seo h1						25, 30, 30		#191e1e
+Text						25, 30, 30 		#191e1e
+
+link general				0, 159, 227		#009fe3 
+link hover					25, 30, 30		#191e1e
+link  after					152, 175, 191	#98afbf
+*/
+
+body{
+	margin: 0;
+}
+
+ul.social-media{
+	display: inline-block;
+	margin: 0;
+	list-style: none;
+	padding: 0;
+	font-size: 3em;
+}
+	ul.social-media li{
+		display: inline-block;
+	}
+
+nav{
+	background-color: #009fe3;
+}
+
+nav ul.main-menu{
+	display: inline-block;
+	margin: 0;
+	list-style: none;
+	padding: 0;
+	background-color: #009fe3;
+}
+	nav ul.main-menu li{
+		display: inline-block;
+		font-size: 1.5em;
+		border: solid;
+	}
+
+
+/*
+
+#logo {
+	width: 400px;
+	display: inline-block;
+	/*position: fixed;*/
+	/*top: 80px;*/
+	/*position:relative;to define position type*/
+	/*top: 80px;*/
+}
+
+.global-search{
+	background-color: white;
+	position: relative;
+}
+
+form.global-search{
+	display: inline-block;
+	/*background-color: #008CFF;*/
+}
+
+
+/*Header Styles*/
+h1{
+	display: inline-block;
+	/*background-color: #008CFF;*/
+}
+
+.wrapper{
+	margin: 0 auto;
+	/*background: #191e1e;*/
+	width: 1240px;
+	padding: 20px;
+	position: relative;
+}
+
+header{
+	background-color: #98afbf;
+	/*background-color: #191e1e;*/
+	/*border-width: 10px;
+	border-style: solid;
+	border-bottom: 20px;*/
+}
+
+header h2{
+	display: inline-block;
+}
+
+.panes{
+	float: left;
+}
+
+.left-pane{
+	width: 30%;
+}
+
+.right-pane{
+	width: 70%;
+}
+
+#feature-boxes{
+	
+}
+
+#feedback-block{
+	background-color: #98afbf;
+}
+
+#intake{
+	background-color: #98afbf;
+}
+
+#navigation{
+	background-color: #98afbf;
+}
+
+#footer{
+	/*background-color: #98afbf;*/
+}
+
+.footer-wrapper{
+	margin: 0 auto;
+	/*background: #191e1e;*/
+	width: 1240px;
+}
