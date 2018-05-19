@@ -21,7 +21,10 @@ h1{
 ul.social_icon{
 	text-decoration: none;
 	list-style-type: none;
+	font-size: 2em;
 }
+
+
 ul.nav_list li{
 	list-style-type: none;
 	text-decoration: none;

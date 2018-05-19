@@ -1,0 +1,200 @@
+/*
+Primary Colour				152, 175, 191	#98afbf
+Secondary Colour			0, 159, 227		#009fe3
+
+Menu background Colour		0, 159, 227		#009fe3
+Menu link general Colour	25, 30, 30		#191e1e
+Menu link hover Colour		152, 175, 191	#98afbf
+
+Header background colour	152, 175, 191	#98afbf
+Header Text					25, 30, 30		#191e1e
+Icons						0, 159, 227		#009fe3
+
+Seo h1						25, 30, 30		#191e1e
+Text						25, 30, 30 		#191e1e
+
+link general				0, 159, 227		#009fe3 
+link hover					25, 30, 30		#191e1e
+link  after					152, 175, 191	#98afbf
+*/
+
+body{
+	margin: 0;
+}
+
+ul.social-media{
+	display: inline-block;
+	list-style: none;
+	padding: 0;
+	font-size: 3em; /*em is a reletive mesurement*/
+}
+	ul.social-media li{
+		display: inline-block;
+	}
+
+
+
+.main-menu{
+	background-color: #009fe3;
+	display: inline-block;
+	list-style: none;
+	padding: 0;
+}
+
+.main-menu wrapper{
+	margin: 6px auto;
+}
+
+nav ul.menu{
+	/*display: inline-block;
+	margin: 0;
+	list-style: none;
+	padding: 0;
+	background-color: #009fe3;*/
+}
+	nav ul.menu li{
+		display: inline-block;
+		font-size: 1.5em;
+		border: solid;
+	}
+
+
+
+#logo {
+	display: inline-block;
+	width: 300px;
+	/*display: inline-block;
+	position: fixed;*/
+	/*top: 80px;*/
+	/*to define position type*/
+	/*top: 80px;*/
+}
+
+.hgroup{
+	display: inline-block;
+	position: relative;
+}
+
+.search-group{
+	display: inline-block;
+	position:absolute;
+}
+
+.global-search{
+	background-color: white;
+	display: inline-block;
+	position:absolute;
+}
+
+form.global-search{
+	display: inline-block;
+	/*background-color: #008CFF;*/
+
+}
+
+search-group .social-media{
+	display: inline-block;
+	position:relative;
+	clear: left;
+	top: 500px;
+}
+
+
+/*Header Styles*/
+h1{
+	position: relative;
+	clear: left;
+	top: 20px;
+	/*background-color: #008CFF;*/
+}
+header{
+	background-color: #98afbf;
+	/*background-color: #191e1e;*/
+	/*border-width: 10px;
+	border-style: solid;
+	border-bottom: 20px;*/
+}
+
+header h2{
+	display: inline-block;
+}
+.wrapper{
+	margin: 0 auto;
+	/*background: #191e1e;*/
+	width: 940px;
+	padding: 20px;
+	position: relative;
+}
+
+
+
+.panes{
+	float: left;
+}
+
+.left-pane{
+	width: 30%;
+}
+	.news-block{
+		width: 200px;
+	}
+		.news-feed{
+			list-style: none;
+			padding: 0;
+			/*TO ADD Scroller*/
+			max-height: 400px;
+			overflow: auto;
+		}
+
+		.news-feed .thumbnail{
+			height: 80px;
+			float: left;
+			margin-right: 10px;
+		}
+
+		.news-feed li:nth-child(even) .thumbnail{
+			float: right;
+			margin-right: 0;
+			margin-left: 12px;
+
+		}
+
+.right-pane{
+	width: 70%;
+}
+
+#feature-boxes{
+	
+}
+
+#feedback-block{
+	background-color: #98afbf;
+}
+
+#intake{
+	background-color: #98afbf;
+}
+
+#navigation{
+	background-color: #98afbf;
+}
+ 
+/*input[type=submit],*/
+
+
+
+
+
+#footer{
+	/*background-color: #98afbf;*/
+}
+
+.footer-wrapper{
+	margin: 0 auto;
+	/*background: #191e1e;*/
+	width: 1240px;
+}
+
+.news-feed .thumbnail{
+	height: 80px;
+}
