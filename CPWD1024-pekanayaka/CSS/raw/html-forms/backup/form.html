@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Form Elements</title>
+</head>
+<body>
+	<form action="/form-response.php" method="post">
+		<h3>Personal Data</h3>
+		<input type="hidden" name="promocode" value="cinemonbay">
+		First Name:<input type="text" name="f_name" size="30">
+		E Mail<input type="text" name="email">
+		Password<input type="password" name="passwd" required>
+		
+		Student Number<input type="text" name="cpwd_id" placeholder="CPWD****">
+
+		<h3>Student Profile</h3>
+
+		Student Numder:
+		<!-- Student Numder: validation using Regular Expressions-->
+		<input
+			type="text"
+			name="cpwd_id"
+			placeholder="CPWD****"
+			pattern="^CPWD[\d]{4}$"
+		>
+		Gender:
+		<input type="radio" name="Gender" value="male" checked>
+		<input type="radio" name="Gender" value="Female">
+
+		<hr/>
+		<!-- Multiple prefferences-->
+		OS Prefferences
+		Unix <input type="checkbox" name="unix" value="UNIX" checked>
+		Linux <input type="checkbox" name="linux" value="LINUX">
+		AWS <input type="checkbox" name="aws" value="AWS">
+		WIN <input type="checkbox" name="win" value="Windows">
+		
+		<hr/>
+		<!--values taking from value attribute to the Defined Array os[]-->
+		Unix <input type="checkbox" name="os[]" value="UNIX">
+		Linux <input type="checkbox" name="os[]" value="LINUX">
+		AWS <input type="checkbox" name="os[]" value="AWS">
+		WIN <input type="checkbox" name="os[]" value="Windows">
+
+		<hr/>
+		<input type="file" name="cv"/>
+
+		<hr/>
+		<h3>Select Your Country</h3>
+		<!--Option Group-->
+		<select name="country">
+			<option value="in">India</option>
+			<option value="au">Australia</option>
+			<option value="uk">United kingdom</option>
+			<option value="lk" selected>Sri Lanka</option>
+			<optgroup lable="Africa">
+				<option value="al">Algeria</option>
+				<option value="an">Angola</option>
+				<option value="bo">Botswana</option>
+			</optgroup>
+			<optgroup lable="Asia">
+				<option value="lk" selected>Sri Lanka</option>
+				<option value="in" disabled>India</option>
+				<option value=""></option>
+			</optgroup>
+		</select>
+
+		<!--Text Area can define rows and cols-->
+		<textarea name="connect" rows="10" cols="20"></textarea>
+
+		<hr/>
+		<input type="submit" value="Submit">
+		<input type="reset" value="Reset">
+	</form>	
+</body>
+</html>

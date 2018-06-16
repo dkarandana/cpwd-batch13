@@ -1,0 +1,29 @@
+body { background: red; font-family: arial; }
+.Latest.News {
+    width: 300px;
+    padding: 020px;}
+
+    /*ul*/
+    .news-feed{
+    	list-style:name;
+    	padding: 0;
+    	/*scroller*/
+    	max-height:400px;
+    	overflow:auto;
+    }
+    /*li*/
+    .news-feed Li{
+    	margine-bottom:20px;
+    	border-bottom: 1px dashed;
+
+    }
+    .news-feed Li:nth-child(even).thumbnail{
+    	flot:right;
+    	margin-right:0;
+    	margin-left:12px;
+    }
+    .news-feed.thumbnail{
+    	height:84px;
+    	float:left;
+    	margin-right: 12px;
+    }

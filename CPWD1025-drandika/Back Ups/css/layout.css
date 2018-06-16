@@ -1,0 +1,191 @@
+body{
+	margin: 0;
+	background-color:white;
+}
+
+#logo{
+	height:100px;
+	position: relative;
+	top:20px; 
+	margin left:20px; 
+	margin right:60px;
+}
+
+/* header Style */
+
+header h1{
+	display:inline-block;
+	padding:5px 
+	position:relative; 
+	top:0px;
+	margin-left:200px;
+
+}
+
+hgroup{ 
+	display:inline-block;
+
+
+}
+
+header h2{
+	padding:20px;
+	position:absolute; 
+	top:60px;
+	margin-left:300px; 
+
+}
+
+.wrapper{
+	width:940px;
+	margin:0 auto;
+	padding:0 20px;
+	position: relative;
+}	
+
+.global-search{
+	position:absolute;
+	top:30px;
+	right:30px;
+}
+
+.social-media{
+	position:absolute;
+	top:80px;
+	right:30px;
+	height:200px;
+
+
+}
+
+ul.social-media{
+	display: inline-block;
+	margin:0;
+	list-style: none;
+	padding:0;
+	height:100px;
+	font-size:2.5em;
+}
+
+	ul.social-media li{
+		display: inline-block;
+	}
+
+nav{background-color:#9CD7DA;
+	padding:5px;
+	
+}
+
+header{
+	background-color:orange;
+
+}
+
+
+header h2{
+	display:inline-block;
+}
+
+form.global-search{
+	display:inline-block;
+	
+}
+
+
+ul.menu{
+	list-style: none;
+	padding:2px;
+	background-color:#9CD7DA;
+
+}
+			
+	ul.menu li{
+		display: inline-block;
+	}
+
+		nav ul.menu li a{
+			padding:20px;
+			
+			
+		}
+.main-menu wrapper{
+	margin:20px 0;
+}
+
+
+
+/*immediate children of content area*/
+
+.content-area > div {
+	display:inline-block;
+}
+
+.left-pane{
+	width:30%; 
+	background-color: #FDEE1D;
+	vertical-align: top;
+}
+
+	.latest-news{
+		display:"inline-block";
+		background:#EFEF98;
+
+	}
+	.news-block{
+		width:250px;
+		padding:0 20px;
+		
+	}
+	/*UL*/
+
+
+	.news-feed{
+		list-style: none;
+		padding:0;
+
+		/*Scroller*/
+		max-height:400px;
+		overflow:auto;
+	}
+
+
+	/*Li*/
+		.news-feed li{
+			margin-bottom:20px;
+			border-bottom:1px dashed;
+		}
+
+
+		.news-feed .thumbnail{
+			float:left;
+			margin-left:12px;
+			height:84px;
+			background-color: blue;
+			height:30px;
+			width:30px;
+		}
+			
+
+		.news-feed li:nth-child(even) .thumbnail{
+			float:right;
+			margin-right:0;
+			margin-left:12px;
+			
+		}
+
+
+
+.right-pane{
+	width:69%; 
+	background-color: #FDEE1D;
+}
+
+.content-area{
+	background-color:#FDEE1D;
+}
+
+footer{
+	background-color:orange;
+}
+
+	

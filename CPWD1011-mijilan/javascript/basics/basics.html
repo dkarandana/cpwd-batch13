@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>js</title>
+</head>
+<body>
+	<h1>javaScript basics</h1>
+	<script>
+		//var firstName;
+			//firstName = "ijilan";
+
+		/*var firstName = "Mohamed";
+		var lastName = "ijilan";
+		var Email = "ijilan.moh@gmail.com";
+		var ContactNumber = "0456";*/
+
+		var course = "cpwd",
+			number = "013",
+			firstName = "Mohamed",
+			lastName = "ijilan",
+			Email = "ijilan.moh@gmail.com";
+			languages =[
+				"HTML",
+				"CSS",
+				"JS",
+				"JSX",
+				"Angular",
+				["React","React Native","Redux"]
+			],
+			langs = new Array("HTML","SCSS");
+
+
+		//console.log( firstName,lastName,Email );
+		//console.log( languages , typeof languages[5]);
+
+		var myObj ={
+			"":"Empty String",
+			null:777,
+			undefined:"Und",
+			0:45,
+			false:34,
+			directory:"/home/httpd",
+			cache:"false",
+			a:2,
+			b:["hint","lint"],
+			port:{
+				dev:3000,
+				prod:3030
+			}
+		};
+
+		//console.log( myObj, typeof myObj);
+		//console.log( myObj [0])
+
+
+		//fullName = firstName + lastName ; - moahamedijilan
+		//fullName = firstName + " " + lastName ;
+
+		//console.log( "Full Name is: ", fullName );
+
+		/*function getFullName(){
+			var fullName = "Mohamed",
+				lastName = "ijilan",
+				fullName;
+				fullName = firstName + " " + lastName ;
+
+			console.log( "Full Name is: ", fullName );
+		}
+
+		getFullName("mohamed","ijilan");*/
+
+		/*function getFullName( firstName, lastName){
+			//console.log( arguments);
+			/*var fullName = arguments[0],
+				lastName = arguments[1], 
+			var fullName;
+
+				fullName = firstName + " " + lastName ;
+
+			console.log( "Full Name is: ", fullName );
+		}*/
+
+		/* function getFullName( firstName, lastName){
+			var fullName;
+				fullName = firstName + " " + lastName ;
+
+			return fullName;
+		}
+
+		var myName = getFullName( "mohamed","ijilan");
+
+		console.log( myName );*/
+
+		var getFullName = function( firstName, lastName ){
+			return firstName + " " + lastName;
+		};
+
+		function sayHi( person){
+			return "Hi " + person;
+		}
+
+		console.log( sayHI(getFullName("mohamed", "ijilan")) );
+	</script>
+</body>
+</html>
