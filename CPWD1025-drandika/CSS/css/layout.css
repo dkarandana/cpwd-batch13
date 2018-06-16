@@ -1,0 +1,173 @@
+body{
+	margin: 0;
+	background-color:#add2d463;
+}
+
+#logo{
+	height:80px;
+	position: relative;
+	top:20px; 
+	margin left:60px; 
+	margin right:60px;
+}
+
+/* header Style */
+
+header h1{
+	display:inline-block;
+	padding:10px;
+	border:none;
+	margin top:50px;
+	margin right:10px;
+
+}
+
+.wrapper{
+	background-color:white;
+	width:960px;
+	margin:0 auto;
+	padding:150px;
+	position: relative;
+}	
+
+.global-search{
+	position:absolute;
+	top:30px;
+	right:30px;
+}
+
+.social-media{
+	position:relative;
+	top:100px;
+	right:30px;
+}
+
+nav{background-color:#9CD7DA;
+
+}
+
+header{
+	background-color:white;
+}
+
+
+header h2{
+	display:inline-block;
+	padding:10px;
+	border:none;
+}
+
+form.global-search{
+	display:inline-block;
+	background-color: brown;
+}
+
+ul.social-media{
+	display: inline-block;
+	margin:0;
+	list-style: none;
+	padding:0;
+	list-style: none;
+}
+
+/*Main MenuText*/
+
+#main-menu{
+	
+	display: inline-block;
+	list-style: none;
+	padding: 0;
+}
+
+ul.social-media li{
+		display: inline-block;
+}
+
+ul.menu{
+	display: inline-block;
+	margin:0;
+	list-style: none;
+	padding:0;
+}
+			
+ul.menu li{
+		display: inline-block;
+}
+
+nav ul.menu li a{
+			padding:20px;
+}
+
+/*Immediate children of content area*/
+
+.content-area-wrapper > div {
+	float:left;
+}
+
+/*Panes*/
+.panes{
+	display: inline-block;
+	
+}
+
+/*LEFT Pane*/
+
+
+.left-pane{
+	width:40%; 
+	background-color:white;
+	display:inline-block;
+}
+
+
+.latest-news{
+	width:350px;
+}
+/*TO ADD Scroller*/
+/*And Images*/
+.data-feed{
+	list-style:none;
+	padding:0;
+	max-height:500px;
+	overflow:auto;
+}
+.data-feed .thumbnail-1{
+	float:left;
+	margin-right:10px;
+}
+.data-feed .thumbnail-2{
+	float:right;
+	margin-right:10px;
+}	
+.data-feed .thumbnail-3{
+	float:right;
+	margin-right:10px;
+}
+.data-feed .thumbnail-4{
+	float:right;
+	margin-right:10px;
+}		
+
+
+/*RIGHT Pane*/
+
+.right-pane{
+	width:60%; 
+	background-color: white;
+	display:inline-block;
+}
+data-feed li:nth-child(even) .thumbnail{
+			float: right;
+			margin-right: 0;
+			margin-left: 12px;
+}
+			
+.content-area{
+	background-color:white;
+}
+
+footer{
+	background-color:white;
+}
+
+	

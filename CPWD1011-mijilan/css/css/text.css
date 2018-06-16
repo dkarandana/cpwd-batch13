@@ -9,24 +9,56 @@ text (black)	-#1F1F1F
 font-family: 'PT Sans', sans-serif;
 font-family: 'PT Serif', serif;*/
 
-body{
-	font-family: 'PT Sans', sans-serif;
+header div{
+	text-align: center;
 }
 
 h1{
 	font-family: 'Open Sans Condensed', sans-serif;
-	letter-spacing: 5px;
+	font-size: 49px;
+	letter-spacing: 3px;
+}
+.body_content{
+	font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
 }
 
-ul.social_icon{
+header h2{
+	font-family: font-family: 'PT Sans', sans-serif;
+	line-height: 2.7;
+}
+
+.social_icon li {
+	font-size: 4em;
+	letter-spacing: 10px;
+}
+
+a{
 	text-decoration: none;
-	list-style-type: none;
+	color:black; 
+}
+	
+	a:hover{
+		font-size: 150%;
+	}
+
+nav li a:hover{
+	color: yellow;
 	font-size: 2em;
 }
+	a:active{
+		text-decoration: underline;
+	}
 
-
-ul.nav_list li{
-	list-style-type: none;
-	text-decoration: none;
+.news li p{
+	text-align: justify;
 }
 
+.news h3{
+	font-size: 17px;
+    text-indent: 10px;
+}
+
+.main_content h5{
+	font-size: 15px;
+}

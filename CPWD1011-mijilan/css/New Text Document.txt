@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>cpwd page</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|PT+Sans|PT+Serif" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/text.css">
+	<link rel="stylesheet" type="text/css" href="css/layout.css">
+	
+</head>
+<body>
+	<header>
+		<div class="wrapper">
+			<img src="images/home_cpwd_logo.png" alt="logo" id="logo">
+			<div class="hgroup">
+				<h1>Become a Webdevoloper</h1>
+			 	<h2>sub title</h2>
+			</div>
+			<form  class="social_">
+				<input type="text" name="search" class="globel_search">
+				<input type="submit" name="submit" value="search">
+			</form>
+			<ul class="social_icon">
+				<li><a href="#tw"><i class="fab fa-twitter"></i></a></li>
+				<li><a href="#in"><i class="fab fa-linkedin"></i></a></li>
+				<li><a href="#fb"><i class="fab fa-facebook-square"></i></a></li>
+			</ul>
+		</div>	
+	</header>
+	<nav class="main_menu" >
+			<ul class="nav_list">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#course_details">Course Details</a></li>
+				<li><a href="#upcoming_news">Upcoming News</a></li>
+				<li><a href="events">Events</a></li>
+				<li><a href="events">Event</li>
+				<li><a href="reviews">Reviews</a></li>
+				<li><a href="contact_us">Contact Us</a></li>
+			</ul>
+		</nav>
+	<div class="content_area wrapper">
+		<div class="pane left_pane">
+			<div class="news">
+				<h3>Latest News</h3>
+				<ul class="news_feed">
+					<li>
+						<p class="intro">
+							<img class="thumnails" src="images/zuker.jpg" alt="fb-owner" >
+							<strong>"We needed to get serious"</strong><br>
+
+							That's the message from Facebook co-founder and CEO Mark Zuckerberg, who kicked off 2018 with an open letter in which he pledged to fix the myriad of issues that have flared up in the past year.
+							The first step this year concerns his own attention, which will be more wide ranging than managing decisions and shaping the company's rules. That includes bringing "groups of experts together," he said in the post Thursday.
+							"These issues touch on questions of history, civics, political philosophy, media, government, and of course technology," he added.
+						</p>
+					</li>
+					<li>
+						<p> 
+							<img class="thumnails" src="images/apple.jpg" alt="i-phone8" >
+							<b>i phone-8 & i phone-8 plus</b><br>
+							At its annual September iPhone event, which took place on September 12, Apple unveiled three new iPhones: the iPhone 8, the iPhone 8 Plus, and the iPhone X. While the iPhone X is the new high-end flagship device, the iPhone 8 and the iPhone 8 Plus both feature some major improvements.<br>
+							Like the iPhone X, the iPhone 8 and the iPhone 8 Plus feature an all-glass design, with new aluminum-framed glass bodies available in Space Gray, Gold, and Silver. Apple uses a seven-layer color process for "precise" hue and opacity, and the devices are constructed from the most durable glass ever used in a smartphone.
+						</p>
+					</li>
+					<li>
+						<p>
+							 <img class="thumnails" src="images/oppo.jpg" alt="oppo" >
+							<b>Oppo mobiles</b><br>
+							<i>OPPO Mobiles</i>, The Selfie Expert & Leader, launched their brand-new offering OPPO F5 today in Sri Lanka. On the sidelines of this event, OPPO announced a new brand slogan - 'The Selfie expert and leader' consistent with its accomplishments in the Sri Lankanmarket. With its presence in 28 Global Market places, now OPPO products and service are appreciated and widely experienced by over 200 million young consumers across the globe. The F5 is the brand’s first FHD+ full screen display model in Sri Lanka, featuring the groundbreaking A.I. Beauty technology – a technology designed to personalize beautification for subjects on a selfie image. The A.I. Beauty technology will take selfie photography to a whole new level of quality
+						</p>
+					</li>
+				</ul>
+			</div>
+			<div class="events">
+				<h3>Upcoming Events</h3>
+				<form>
+					<input type="date" name="date">
+					<!-- calender icon-->
+				</form>
+				<b> Dublin is Tech</b><br>
+				Bringing together the brilliant minds behind some of the best technologies, companies, projects and communities born in Ireland to step into the future of tech.
+				<a href="#readmore1">read more...</a>
+				<!-- <span class="slide_button left_arrow">&lt;</span> & <span class="slide_button right_arrow">&gt;</span> -->
+				<a href="#left" class="slight_button left"></a>
+				<a href="#right" class="slight_button right"></a>
+			</div>
+		</div>
+		<div class="pane right_pane">
+			<div class="main_content">
+
+					<h5>Jennifer coding story...</h5>
+					<img src="images/jenny.jpg" alt="jennifer">
+					A few months ago, Treehouse student and moderator, Jennifer Nordell, caught our eye in the Treehouse Community. Not only had she worked her way through a phenomenal number of courses, she was also an incredibly active and valuable member of the Community, answering hundreds of student questions in a diverse range of topics. Although she’d been a student for less than a year, Jennifer had already racked up thousands of points on her Treehouse profile (she’s reached over 100k now). We were so impressed by Jennifer’s progress that we asked to virtually meet her to hear more about her story and her incredible drive to learn<br>
+					After spending time with Jennifer, it came to light that she isn’t just an impressive student, she’s also an inspirational individual with a unique backstory that ties to her coding. In recent years, Jennifer has lived with a disability that restricts her from being able to work a regular 9-5 job. As a result, Jennifer searched for other outlets for her time. Coding is something that comes naturally to Jennifer and is something she enjoys, so using her free time to expand her coding skills and helping others progress became a valuable focus.<br>
+					We asked Jennifer if we could share her experience becoming a developer with the community.
+					<a href="#readmore2">read more..</a>
+
+					<h5>Amanda Bates</h5>
+					<img src="images/amanda.jpg" alt="amanda">
+					A basic web design class in high school introduced Amanda to a passion for the web. However, it wasn’t until 10 years later, when Amanda was stuck in a dead end job that she decided to go back to college to pursue a career in tech.<br>
+					At 27, Amanda enrolled in an Information Studies degree at university. During the first semester a web design course reaquainted Amanda with her passion for web design and confirmed that it was the next career path for her. With limited web design and development courses included in her major, Amanda turned to online learning resources. Treehouse was the perfect fit for her learning needs and goals.<br>
+					This month, Amanda started her exciting new career as a web developer and is finally doing what she loves.<br>
+					We asked Amanda to share her experience embarking on a new tech career.
+					<a href="#readmore3">raed more...</a>
+			</div>
+			<div id="sub_gallery">
+				<!--<ul class="tab1">
+					<li><img src="images/cpwd-1.jpg" alt="001"></li>
+					<li><img src="images/cpwd-2.jpg" alt="002"></li>
+					<li><img src="images/cpwd-3.jpg" alt="003"></li>
+					<li><img src="images/cpwd-4.jpg" alt="004"></li>
+					<li><img src="images/cpwd-5.jpg" alt="005"></li>
+				</ul>
+				<ul class="tab2">
+					<li><img src="images/web-3.jpg" alt="006"></li>
+					<li><img src="images/web-1.jpg" alt="007"></li>
+					<li><img src="images/web-2.jpg" alt="008"></li>
+					<li><img src="images/web-4.jpg" alt="009"></li>
+				</ul>
+				<ul class="tab3">
+					<li><img src="images/cls-1.jpg" alt="010"></li>
+					<li><img src="images/cls-2.jpg" alt="011"></li>
+					<li><img src="images/cls-3.jpg" alt="012"></li>
+					<li><img src="images/cls-4.jpg" alt="013"></li>
+				</ul> -->
+			</div>
+			<div class="feature_boxes">
+				<div class="feedback_block">
+					<h3>Feed Back</h3>
+					<form>
+						<input type="radio" name="option_1" checked="">option 1
+						<input type="radio" name="option_2">option 2
+						<!--interminate-->
+						<input type="radio" name="option_3">option 3
+						<input type="checkbox" name="option_4" disabled>option 4
+						<input type="checkbox" name="option_5" checked disabled>option 5
+						<!-- interminate-->
+						<input type="checkbox" name="option_6" disabled="">option 6
+						<input type="submit" name="submit">
+						<input type="reset" name="reset" value="clear">
+					</form>
+				<div class="mid_year_intake_block">
+					<div>
+						<h3>Mid Year Intake</h3>
+						discription
+					</div>
+					<form>
+						<input type="text" name="email" placeholder="Email address here..">
+						<input type="submit" name="apply" value="Apply" >
+					</form>
+				</div>
+				<div class="navigation_block">
+					<h3>Navigation Map</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="wrapper">
+			copyright &#169; 2017 PACE Institute. All Rights reserved. Websites Design, Devolopment & Hosting by eBEYONDS
+		</div>
+	</footer>
+</body>
+</html>	

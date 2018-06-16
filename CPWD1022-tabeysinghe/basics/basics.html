@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript</title>
+	
+</head>
+<body>
+	<h1>Javascript Basics</h1>
+	<script type="text/javascript">
+
+		//var firstName;
+			//firstName="Thashma";
+
+			//or
+
+			// var firstName = "Thashma";
+			//location created and value is being assigned.
+
+		var firstName = "Thashma",
+			lastName = "Abeysinghe",
+			email = "thashma@gmail.com",
+			CPWDNo = 1022
+			Course = "CPWD"
+			
+		//type 1
+		Languages = [
+			"HTML",
+			"CSS",
+			"JS",
+			"JSX",
+			"Angular",
+			"React"];
+
+		//Type 2
+		langs = new Array ("HTML", "Angular 1");
+
+		/*var myobj ={
+			//"" : "Empty string",
+			//null : 777,
+			//undefined : "und",
+			//0 : 45,
+			//false : 34,
+			//directory : 
+		}*/                                                 
+
+		//fullName = firstName+ " " + lastName;
+
+
+
+		/* 1st way
+		function getFullName(){
+			var	firstName = "Thashma",
+				lastName = "Abeysinghe",
+				fullName;
+
+			fullName = firstName + " " + lastName;	
+
+			console.log("full name is", fullName);
+
+		}
+		getFullName();*/
+
+/* with arguments	
+		function getFullName (firstName, lastName){
+			var fullName;
+			fullName = firstName + " " + lastName;
+
+			return fullName;
+		}
+
+		var myName = getFullName ("Thashma", "Abeysinghe");
+
+		console.log(myName);
+		*/
+
+		var	getFullName = function  ( firstName, lastName ) {
+			return firstName + " " + lastName;
+		};
+
+		function sayHi (person){
+			return "Hi" + person;
+		}
+
+
+
+	//	console.log("My full name is",fullName);
+	//	console.log (langs, typeof[1]);
+	//	console.log(Languages, typeof Languages [5]);
+	//  console.log (firstName,lastName,email,Course,CPWDNo);
+
+
+	</script>
+</body>
+</html>
