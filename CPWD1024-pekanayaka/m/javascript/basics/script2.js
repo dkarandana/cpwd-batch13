@@ -15,13 +15,13 @@ var langList = function(languages){
 			/*Repeative Work*/
 			var $li = document.createElement('li');
 			
-			var textNode  = document.createTextNode(lang.name);
+			var text  = document.createTextNode(lang);
 			var $btn = document.createElement('button');
 
 			$btn.innerText = "show Extention";
-			$btn.setAttribute('value',lang.fileExt);
+			$btn.setAttribute('value',"text");
 
-			$li.appendChild(textNode);
+			$li.appendChild(text);
 			$li.appendChild($btn);
 			$li.style.color = "red";
 
@@ -64,10 +64,10 @@ var DOMReady = function(){
 	"CSS",
 	"C++",
 	"C"
-	];/*2*/
+	];/*3*/
 
 	var body = document.querySelector('body');
-	var langListHTML =  langList(languages);/*3*/
+	var langListHTML =  langList(languages);/*2*/
 	body.appendChild(langListHTML)
 
 };
